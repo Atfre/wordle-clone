@@ -25,9 +25,7 @@ const Grid = ({ guesses, currentGuess, solution }: GridProps) => {
     <div className="grid">
       {allGuesses.map((guess, rowIndex) => {
         const isComplete = guesses.length > rowIndex
-        const states = isComplete
-          ? getLetterStates(guess, solution)
-          : Array(columns).fill('')
+        const states = isComplete ? getLetterStates(guess, solution) : Array(columns).fill('')
 
         return (
           <div key={rowIndex} className="row">
@@ -36,10 +34,7 @@ const Grid = ({ guesses, currentGuess, solution }: GridProps) => {
               const letterState = states[colIndex]
 
               return (
-                <div
-                  key={`${rowIndex}-${colIndex}`}
-                  className={`cell cell-${letterState}`}
-                >
+                <div key={`${rowIndex}-${colIndex}`} className={`cell cell-${letterState}`}>
                   {letter}
                 </div>
               )

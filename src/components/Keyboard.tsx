@@ -40,11 +40,7 @@ const Keyboard = ({ isOver, keyboardStates, onKeyPress }: KeyboardProps) => {
             const state = keyboardStates[key] || ''
 
             return (
-              <button
-                key={key}
-                className={`keyboard-key ${key === 'ENTER' || key === 'BACKSPACE' ? 'keyboard-key-wide' : ''} ${state}`}
-                onClick={() => onKeyPress(key)}
-              >
+              <button key={key} className={`keyboard-key ${key === 'ENTER' || key === 'BACKSPACE' ? 'keyboard-key-wide' : ''} ${state}`} onClick={() => onKeyPress(key)}>
                 {key === 'BACKSPACE' ? '⌫' : key}
               </button>
             )

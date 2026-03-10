@@ -29,7 +29,7 @@ const handleKeyPress = (key: string) => {
 
     if (currentGuess === solution) {
       setTimeout(() => {
-        alert('¡Ganaste!')
+        alert('Congratulations!')
       }, 300)
 
       setIsOver(true)
@@ -37,7 +37,7 @@ const handleKeyPress = (key: string) => {
 
     if (guesses.length === 5 && currentGuess !== solution) {
       setTimeout(() => {
-        alert(`Perdiste. La palabra era ${solution}`)
+        alert(`You lost. The word was ${solution}`)
       }, 300)
 
       setIsOver(true)
@@ -61,7 +61,7 @@ const handleKeyPress = (key: string) => {
 
   return (
     <div className="App">
-      <h1>Wordle</h1>
+      <h1>Wordle-clone</h1>
       <Grid 
         guesses={guesses} 
         currentGuess={currentGuess} 

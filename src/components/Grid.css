@@ -17,27 +17,27 @@
     align-items: center;
     width: 62px;
     height: 62px;
-    border: 2px solid #3a3a3c;
+    border: 2px solid var(--absent);
     font-size: 2rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #f8f8f8;
+    color: var(--white);
     transition: background-color 0.15 ease;
 }
 
 .cell-correct {
-    background-color: #538d4e;
-    border-color: #538d4e;
+    background-color: var(--correct);
+    border-color: var(--correct);
 }
 
 .cell-present {
-    background-color: #b59f3b;
-    border-color: #b59f3b;
+    background-color: var(--present);
+    border-color: var(--present);
 }
 
 .cell-absent {
-    background-color: #3a3a3c;
-    border-color: #3a3a3c;
+    background-color: var(--absent);
+    border-color: var(--absent);
 }
 
 .cell:not(:empty) {

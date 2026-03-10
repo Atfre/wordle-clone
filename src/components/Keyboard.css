@@ -19,8 +19,8 @@
     border: 0;
     text-transform: uppercase;
     height: 58px;
-    background-color: #818384;
-    color: #f8f8f8;
+    background-color: var(--gray);
+    color: var(--white);
     flex: 1;
     border-radius: 4px;
     font-weight: bold;
@@ -33,13 +33,13 @@
 }
 
 .keyboard-key.correct {
-    background-color: #538d4e;
+    background-color: var(--correct);
 }
 
 .keyboard-key.present {
-    background-color: #b59f3b;
+    background-color: var(--present);
 }
 
 .keyboard-key.absent {
-    background-color: #3a3a3c;
+    background-color: var(--absent);
 }
