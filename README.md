@@ -36,7 +36,7 @@ src/
 ```
 - **App** - Game controller and state management
 - **Grid** - Displays guesses and letters
-- **KeyBoard** - Interactive virtual keyboard
+- **Keyboard** - Interactive virtual keyboard
 - **Utils** - Game logic and functions
 - **Word** - Handles random word fetching
 
@@ -46,8 +46,8 @@ src/
 
 - **(1) Clone the repository**
 ```
-https://github.com/Atfre/wordle.git
-cd wordle
+https://github.com/Atfre/wordle-clone.git
+cd wordle-clone
 ```
 - **(2) Install dependencies**
 ```
