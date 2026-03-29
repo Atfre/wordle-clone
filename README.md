@@ -1,13 +1,13 @@
-# ✅ Wordle - Clone Game
+# Wordle - Clone Game
 
 A fully functional Wordle clone built with **React**, **TypeScript** and **Vite**.
 
 The project recreates the main mechanics of the original Wordle game, focusing on clean architecture, state management, and a custom letter evaluation algorithm.
 
-## 💻 Live Demo
+## Live Demo
 🔗 [Try it yourself!](https://wordle-clone-jade-nu.vercel.app/)
 
-## ✨ Features
+## Features
 
 - 6 attempts to guess a 5 letter word
 - Real-time grid rendering
@@ -23,7 +23,7 @@ The project recreates the main mechanics of the original Wordle game, focusing o
 
 ---
 
-## 📂 Structure
+## Structure
 
 ```
 src/
@@ -42,7 +42,7 @@ src/
 
 ---
 
-## 📦 Installation
+## Installation
 
 - **(1) Clone the repository**
 ```
@@ -61,7 +61,7 @@ npm run dev
   - Vite will provide a local URL (usually): `(http://localhost:5173)`
 ---
 
-## 🌐 External API
+## External API
 
 Words are fetched from:
 
